@@ -27,7 +27,7 @@ fetch('product.json')
         addDataToHTML();
 })
 
-//show datas product in list 
+//show datas product in list
 function addDataToHTML(){
     // remove datas default from HTML
     let listProductHTML = document.querySelector('.listProduct');
@@ -39,10 +39,10 @@ function addDataToHTML(){
         products.forEach(product => {
             let newProduct = document.createElement('div');
             newProduct.classList.add('item');
-            newProduct.innerHTML = 
+            newProduct.innerHTML =
             `<img src="${product.image}" alt="">
             <h2>${product.name}</h2>
-            <div class="price">$${product.price}</div>
+            <div class="price">Tsh${product.price}</div>
             <button onclick="addCart(${product.id})">Add To Cart</button>`;
 
             listProductHTML.appendChild(newProduct);
@@ -50,8 +50,8 @@ function addDataToHTML(){
         });
     }
 }
-//use cookie so the cart doesn't get lost on refresh page
 
+//using cookie to keep the cart after refresh
 
 let listCart = [];
 function checkCart(){
@@ -64,11 +64,15 @@ function checkCart(){
         listCart = [];
     }
 }
+
+//check cart products
 checkCart();
+
 function addCart($idProduct){
     let productsCopy = JSON.parse(JSON.stringify(products));
+
     //// If this product is not in the cart
-    if(!listCart[$idProduct]) 
+    if(!listCart[$idProduct])
     {
         listCart[$idProduct] = productsCopy.filter(product => product.id == $idProduct)[0];
         listCart[$idProduct].quantity = 1;
@@ -81,6 +85,8 @@ function addCart($idProduct){
 
     addCartToHTML();
 }
+
+
 addCartToHTML();
 function addCartToHTML(){
     // clear data default
@@ -95,7 +101,7 @@ function addCartToHTML(){
             if(product){
                 let newCart = document.createElement('div');
                 newCart.classList.add('item');
-                newCart.innerHTML = 
+                newCart.innerHTML =
                     `<img src="${product.image}">
                     <div class="content">
                         <div class="name">${product.name}</div>
@@ -126,7 +132,7 @@ function changeQuantity($idProduct, $type){
                 delete listCart[$idProduct];
             }
             break;
-    
+
         default:
             break;
     }

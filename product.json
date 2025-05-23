@@ -4,21 +4,24 @@
         "name": "Product 1",
         "price": 520,
         "image": "images/1.webp",
-        "category": "watch"
+        "category": "watch",
+        "description": "This is a high-quality watch with excellent craftsmanship."
     },
     {
         "id": 2,
         "name": "Product 2",
         "price": 220,
         "image": "images/2.webp",
-        "category": "watch"
+        "category": "watch",
+        "description": "This is a high-quality watch with excellent craftsmanship."
     },
     {
         "id": 3,
         "name": "Product 3",
         "price": 250,
         "image": "images/3.webp",
-        "category": "watch"
+        "category": "watch",
+        "description": "This is a high-quality watch with excellent craftsmanship."
     }
     ,
     {
@@ -26,42 +29,48 @@
         "name": "Product 4",
         "price": 420,
         "image": "images/4.webp",
-        "category": "watch"
+        "category": "watch",
+        "description": "This is a high-quality watch with excellent craftsmanship."
     },
     {
         "id": 5,
         "name": "Product 5",
         "price": 120,
         "image": "images/5.webp",
-        "category": "watch"
+        "category": "watch",
+        "description": "This is a high-quality watch with excellent craftsmanship."
     },
     {
         "id": 6,
         "name": "Product 6",
         "price": 120,
         "image": "images/6.webp",
-        "category": "watch"
+        "category": "watch",
+        "description": "This is a high-quality watch with excellent craftsmanship."
     },
     {
         "id": 7,
         "name": "Product 7",
         "price": 520,
         "image": "images/1.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 8,
         "name": "Product 2",
         "price": 220,
         "image": "images/2.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 9,
         "name": "Product 3",
         "price": 250,
         "image": "images/3.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     }
     ,
     {
@@ -69,28 +78,32 @@
         "name": "Product 4",
         "price": 420,
         "image": "images/4.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 11,
         "name": "Product 5",
         "price": 120,
         "image": "images/5.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 12,
         "name": "Product 6",
         "price": 120,
         "image": "images/6.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 13,
         "name": "Product 3",
         "price": 250,
         "image": "images/7.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     }
     ,
     {
@@ -98,20 +111,23 @@
         "name": "Product 4",
         "price": 420,
         "image": "images/8.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 15,
         "name": "Product 5",
         "price": 120,
         "image": "images/9.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     },
     {
         "id": 16,
         "name": "Product 6",
         "price": 120,
         "image": "images/10.png",
-        "category": "laptop"
+        "category": "laptop",
+        "description": "This is a powerful laptop suitable for all your computing needs."
     }
 ]
