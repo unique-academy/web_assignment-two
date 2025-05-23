@@ -2,6 +2,7 @@ let iconCart = document.querySelector('.iconCart');
 let cart = document.querySelector('.cart');
 let container = document.querySelector('.container');
 let close = document.querySelector('.close');
+let categoryFilter = 'all'; // Default category filter
 
 iconCart.addEventListener('click', function(){
     if(cart.style.right == '-100%'){
@@ -27,16 +28,20 @@ fetch('product.json')
         addDataToHTML();
 })
 
-//show datas product in list
-function addDataToHTML(){
-    // remove datas default from HTML
+// Show products in the list
+function addDataToHTML() {
+    // Remove default data from HTML
     let listProductHTML = document.querySelector('.listProduct');
     listProductHTML.innerHTML = '';
 
-    // add new datas
-    if(products != null) // if has data
-    {
-        products.forEach(product => {
+    // Add new data
+    if (products != null) {
+        // Filter products based on the selected category
+        let filteredProducts = products.filter(product => {
+            return categoryFilter === 'all' || product.category === categoryFilter;
+        });
+
+        filteredProducts.forEach(product => {
             let newProduct = document.createElement('div');
             newProduct.classList.add('item');
             newProduct.innerHTML =
@@ -50,6 +55,14 @@ function addDataToHTML(){
         });
     }
 }
+
+// Add event listeners for category selection
+document.querySelectorAll('.categoryFilter').forEach(button => {
+    button.addEventListener('click', function () {
+        categoryFilter = this.dataset.category; // Get the category from the button's data attribute
+        addDataToHTML(); // Refresh the product list
+    });
+});
 
 //using cookie to keep the cart after refresh
 
