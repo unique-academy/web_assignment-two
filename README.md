@@ -1,5 +1,5 @@
 
-# Group Two e-commerce Plarform
+# Group Two e-commerce Platform
 
 ## Built By
 
