@@ -3,74 +3,115 @@
         "id": 1,
         "name": "Product 1",
         "price": 520,
-        "image": "images/1.webp"
+        "image": "images/1.webp",
+        "category": "watch"
     },
     {
         "id": 2,
         "name": "Product 2",
         "price": 220,
-        "image": "images/4.png"
+        "image": "images/2.webp",
+        "category": "watch"
     },
     {
         "id": 3,
         "name": "Product 3",
         "price": 250,
-        "image": "images/3.webp"
+        "image": "images/3.webp",
+        "category": "watch"
     }
     ,
     {
         "id": 4,
         "name": "Product 4",
         "price": 420,
-        "image": "images/4.webp"
+        "image": "images/4.webp",
+        "category": "watch"
     },
     {
         "id": 5,
         "name": "Product 5",
         "price": 120,
-        "image": "images/5.webp"
+        "image": "images/5.webp",
+        "category": "watch"
     },
     {
         "id": 6,
         "name": "Product 6",
         "price": 120,
-        "image": "images/6.webp"
+        "image": "images/6.webp",
+        "category": "watch"
     },
     {
-        "id": 1,
-        "name": "Product 1",
+        "id": 7,
+        "name": "Product 7",
         "price": 520,
-        "image": "images/1.webp"
+        "image": "images/1.png",
+        "category": "laptop"
     },
     {
-        "id": 2,
+        "id": 8,
         "name": "Product 2",
         "price": 220,
-        "image": "images/2.webp"
+        "image": "images/2.png",
+        "category": "laptop"
     },
     {
-        "id": 3,
+        "id": 9,
         "name": "Product 3",
         "price": 250,
-        "image": "images/3.webp"
+        "image": "images/3.png",
+        "category": "laptop"
     }
     ,
     {
-        "id": 4,
+        "id": 10,
         "name": "Product 4",
         "price": 420,
-        "image": "images/4.webp"
+        "image": "images/4.png",
+        "category": "laptop"
     },
     {
-        "id": 5,
+        "id": 11,
         "name": "Product 5",
         "price": 120,
-        "image": "images/5.webp"
+        "image": "images/5.png",
+        "category": "laptop"
     },
     {
-        "id": 6,
+        "id": 12,
         "name": "Product 6",
         "price": 120,
-        "image": "images/6.webp"
+        "image": "images/6.png",
+        "category": "laptop"
+    },
+    {
+        "id": 13,
+        "name": "Product 3",
+        "price": 250,
+        "image": "images/7.png",
+        "category": "laptop"
+    }
+    ,
+    {
+        "id": 14,
+        "name": "Product 4",
+        "price": 420,
+        "image": "images/8.png",
+        "category": "laptop"
+    },
+    {
+        "id": 15,
+        "name": "Product 5",
+        "price": 120,
+        "image": "images/9.png",
+        "category": "laptop"
+    },
+    {
+        "id": 16,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/10.png",
+        "category": "laptop"
     }
 ]
