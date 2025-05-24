@@ -9,17 +9,28 @@ a{
 .container{
     width: 1200px;
     margin: auto;
-    max-width: 90%;
+    max-width: 100%;
     transition: transform 1s;
 }
 header img{
-    width: 60px;
+    width: 50px;
+    border-radius: 50%;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fbfbfb; /* Blue background */
+    padding: 10px 20px;
+    margin: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: #ffa78c 1px ridge;
 }
+
+
 
 /* Style for category filter buttons */
 .categoryFilter {
@@ -70,6 +81,8 @@ header .totalQuantity{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin: 10px;
+
 }
 .listProduct .item img{
     width: 100%;
@@ -78,6 +91,8 @@ header .totalQuantity{
 }
 .listProduct .item{
     position: relative;
+    border: #ffa78c 1px ridge;
+    border-radius: 5px;
 }
 .listProduct .item h2{
     font-weight: 700;

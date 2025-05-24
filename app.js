@@ -47,7 +47,7 @@ function addDataToHTML() {
             newProduct.innerHTML =
             `<img src="${product.image}" alt="">
             <h2>${product.name}</h2>
-            <div class="price">Tsh${product.price}</div>
+            <div class="price">TZS${product.price}</div>
             <button onclick="addCart(${product.id})">Add To Cart</button>`;
 
             listProductHTML.appendChild(newProduct);

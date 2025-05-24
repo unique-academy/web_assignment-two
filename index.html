@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
-        <header>
-            <h1>LIST PRODUCT</h1>
-            <button class="categoryFilter" data-category="all">All</button>
-<button class="categoryFilter" data-category="watch">Watch</button>
-<button class="categoryFilter" data-category="laptop">Laptop</button>
+        <header class="navbar">
+            <div class="logo">
+                <img src="/images/group_two_ecommerce.png" alt="Logo">
+                <span class="site-name">My Store</span>
+            </div>
+            <div class="nav-buttons">
+                <button class="categoryFilter" data-category="all">All</button>
+                <button class="categoryFilter" data-category="watch">Watch</button>
+                <button class="categoryFilter" data-category="laptop">Laptop</button>
+            </div>
             <div class="iconCart">
-                <img src="icon.png">
+                <img src="icon.png" alt="Cart Icon">
                 <div class="totalQuantity">0</div>
             </div>
         </header>
@@ -70,4 +77,5 @@
     <script src="app.js"></script>
 
 </body>
+
 </html>
